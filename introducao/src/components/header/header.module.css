@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    height: auto;
+    background-color: rgb(37, 31, 31);
+    color: aliceblue;
+    font-size: normal;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-between; */
+    padding: 20px;
+}
+
+.header span {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(240, 218, 218);
+    padding-left: 1.6rem;
+    font-size: 1.2rem;
+}
+
+.headerTop {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.headerbottom {
+    /* background-color: darkgreen; */
+    display: flex;
+    align-items: flex-start;
+
+}
