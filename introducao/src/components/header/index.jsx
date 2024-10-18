@@ -1,6 +1,8 @@
 import style from './header.module.css'
 import img from "../header/img/logo-header.svg"
 import cart from '../header/img/mini-cart.svg'
+import { Link } from 'react-router-dom'
+
 function Header() {
     return (
         <header className={style.header}>
@@ -17,10 +19,13 @@ function Header() {
           </div>
 
           <div className={style.headerbottom}>
-            <a href="">Home</a>
-            <a href="">Produtos</a>
-            <a href="">Categorias</a>
-            <a href="">Meus pedidos</a>
+
+            <Link to='/Home'>Home</Link>
+            <Link to='/Home'>Produtos</Link>
+            <Link to='/Home'>Categorias</Link>
+            <Link to='/Home'>Meus pedidos</Link>
+            <Link to='/Login'>Login</Link>
+            
           </div>
 
         </header>
